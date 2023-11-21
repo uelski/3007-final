@@ -1,8 +1,10 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  min-height: 100vh;
+  background-color: #263238;
+  width: 100%;
 }
 
 .logo {
@@ -31,6 +33,22 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+}
+
+.primary-cta {
+  padding: 1rem;
+  border: none;
+  margin: 0 1rem;
+}
+
+.download:hover {
+  border-color: #e2e8f0;
+}
+
+.primary-cta:hover, .primary-cta:active, .primary-cta:focus {
+  outline: none;
+  border: none;
+  padding: 1rem;
 }
 
 .card {
