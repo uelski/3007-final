@@ -36,12 +36,12 @@ export const Steps: StepsI[] = [
         stepNum: 2
     },
     {
-        text: "Throughout this process the connections we need to keep in mind are below.",
+        text: "Throughout this process the connections we need to keep in mind are below. f(x,y) can be derived from the matrix equation. The length of the output vector from f(x,y) can be computed with ||<a, b>|| = sqrt(a^2+b^2). And finally the squared length, L(x,y), can be derived from the previous steps and used to construct the method of gradient descent.",
         stepNum: 3,
         image: Intro2
     },
     {
-        text: "We are provided with a link to desmos to analyze a multivariate function with different level sets of the output calculated to analyze. We are also given the calculation of the gradient with a moving point to understand the relationship between the gradient and level sets. When comparing the gradient to the level sets in the function h(x,y) = x^2+xy+y^2 we see that the direction of the vector is perpendicular to the level set at any point along it. The same is true when testing any other level set and moving around to different points. An example can be seen in Figure 1 below.",
+        text: "We are provided with a link to desmos to analyze a multivariate function with different level sets of the output calculated to analyze. We are also given the calculation of the gradient with a moving point to understand the relationship between the gradient and level sets. When comparing the gradient to the level sets in the function h(x,y) = x^2+xy+y^2 we see that the direction of the vector is perpendicular to the level set at any point along it. The same is true when testing any other level set and moving around to different points. An example can be seen in Figure 1 below, with the level set in black and gradient in green.",
         stepNum: 4,
         link: "https://www.desmos.com/calculator/d9jjs7bh7a",
         image: Step1Image

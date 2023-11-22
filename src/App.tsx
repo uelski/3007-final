@@ -1,7 +1,8 @@
 import './App.css'
 import StepController from './StepController'
-import { Flex, Heading, Text, Container, Button } from '@chakra-ui/react'
-import PDF from '../src/assets/3007_Final_Report.pdf'
+import { Flex, Heading, Text, Container, Button, Image } from '@chakra-ui/react'
+import PDF from '../src/assets/Sam_Vredenburgh_Final.pdf'
+import AcknowledgementImage from '../src/assets/acknowledgement.jpg'
 
 function App() {
 
@@ -22,6 +23,13 @@ function App() {
       </Container>
       <Button className='download' color={"#ffffffde"} onClick={handleDownload} variant='outline' mb={'1rem'}>Download Report</Button>
       <StepController />
+      <Flex mt={'4rem'} flexDir={'column'} maxW={'50rem'} alignItems={'center'}>
+        <Text color={"#ffffffde"}>I promise that I was academically honest, and followed the instructions above exactly as written. The work I am turning in is my own, and I received no help from anyone besides the instructor. 
+        </Text>
+        <Flex pt={'1rem'} alignItems={'center'} justifyContent={'center'} maxW={"25rem"}>
+          <Image src={AcknowledgementImage} />
+        </Flex>
+      </Flex>
     </Flex>
   )
 }
