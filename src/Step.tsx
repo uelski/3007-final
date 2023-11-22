@@ -14,7 +14,7 @@ const Step = ({text, image, stepNum, displayNum}: {text: string, image?: string,
             <Card maxW='50rem'>
                 <CardBody>
                     <Stack spacing='3' paddingTop={'0'}>
-                    <Text>
+                    <Text color={stepNum === 21 ? "#1B5E20" : "#1a202c"} fontWeight={'500'}>
                         {text}
                     </Text>
                     {
